@@ -3,9 +3,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=info',
+            'dsn' => 'mysql:host=121.41.82.144;dbname=info',
             'username' => 'root',
-            'password' => 'root',
+            'password' => 'mysql_jing',
             'charset' => 'utf8',
         ],
         'mailer' => [
@@ -14,9 +14,9 @@ return [
             'useFileTransport' => false,
             'transport' => [
                 'class' => 'Swift_SmtpTransport',
-                'host' => '******',
-                'username' => '******',
-                'password' => '******',
+                'host' => 'smtp.126.com',
+                'username' => 'ccdatesite@126.com',
+                'password' => '123qwe123qwe',
                 'port' => '25',
                 'encryption' => 'tls',
                 ],
