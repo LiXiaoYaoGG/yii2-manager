@@ -1,0 +1,921 @@
+2017-09-26 15:57:51 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "java/index".' in E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('java/index', Array)
+#1 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-09-26 15:57:51 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.mana.com/backend/web/admin/user/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '50837'
+    'REDIRECT_URL' => '/backend/web/java/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/java/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506412671.09
+    'REQUEST_TIME' => 1506412671
+]
+2017-09-26 16:00:45 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 10' in E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php:196
+Stack trace:
+#0 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(196): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'E:\\www\\gg\\advan...', 196, Array)
+#1 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(130): mdm\admin\components\MenuHelper::normalizeMenu('[<span class="s...', '[<span class="n...', Object(Closure), NULL)
+#2 E:\www\gg\advanced\backend\views\layouts\left.php(46): mdm\admin\components\MenuHelper::getAssignedMenu(1, NULL, Object(Closure))
+#3 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#4 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#5 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, NULL)
+#6 E:\www\gg\advanced\backend\views\layouts\main.php(51): yii\base\View->render('left.php', Array)
+#7 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#8 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#9 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, Object(mdm\admin\controllers\UserController))
+#10 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="use...')
+#11 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\controllers\UserController.php(100): yii\base\Controller->render('index', Array)
+#12 [internal function]: mdm\admin\controllers\UserController->actionIndex()
+#13 E:\www\gg\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#16 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/user/inde...', Array)
+#17 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#19 {main}
+2017-09-26 16:00:45 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.mana.com/backend/web/admin/role/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51789'
+    'REDIRECT_URL' => '/backend/web/admin/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/admin/user/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506412845.736
+    'REQUEST_TIME' => 1506412845
+]
+2017-09-26 16:00:50 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 10' in E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php:196
+Stack trace:
+#0 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(196): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'E:\\www\\gg\\advan...', 196, Array)
+#1 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(130): mdm\admin\components\MenuHelper::normalizeMenu('[<span class="s...', '[<span class="n...', Object(Closure), NULL)
+#2 E:\www\gg\advanced\backend\views\layouts\left.php(46): mdm\admin\components\MenuHelper::getAssignedMenu(1, NULL, Object(Closure))
+#3 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#4 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#5 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, NULL)
+#6 E:\www\gg\advanced\backend\views\layouts\main.php(51): yii\base\View->render('left.php', Array)
+#7 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#8 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#9 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, Object(mdm\admin\controllers\RoleController))
+#10 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="rol...')
+#11 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\ItemController.php(55): yii\base\Controller->render('index', Array)
+#12 [internal function]: mdm\admin\components\ItemController->actionIndex()
+#13 E:\www\gg\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#16 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/role/inde...', Array)
+#17 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#19 {main}
+2017-09-26 16:00:50 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.mana.com/backend/web/admin/route/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51805'
+    'REDIRECT_URL' => '/backend/web/admin/role/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/admin/role/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506412850.664
+    'REQUEST_TIME' => 1506412850
+]
+2017-09-26 16:00:54 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 10' in E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php:196
+Stack trace:
+#0 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(196): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'E:\\www\\gg\\advan...', 196, Array)
+#1 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(130): mdm\admin\components\MenuHelper::normalizeMenu('[<span class="s...', '[<span class="n...', Object(Closure), NULL)
+#2 E:\www\gg\advanced\backend\views\layouts\left.php(46): mdm\admin\components\MenuHelper::getAssignedMenu(1, NULL, Object(Closure))
+#3 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#4 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#5 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, NULL)
+#6 E:\www\gg\advanced\backend\views\layouts\main.php(51): yii\base\View->render('left.php', Array)
+#7 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#8 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#9 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, Object(mdm\admin\controllers\RouteController))
+#10 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<h1>\xE8\xB7\xAF\xE7\x94\xB1\xE5\x88\x97\xE8\xA1...')
+#11 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\controllers\RouteController.php(39): yii\base\Controller->render('index', Array)
+#12 [internal function]: mdm\admin\controllers\RouteController->actionIndex()
+#13 E:\www\gg\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#16 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/route/ind...', Array)
+#17 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#19 {main}
+2017-09-26 16:00:53 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.mana.com/backend/web/admin/role/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51816'
+    'REDIRECT_URL' => '/backend/web/admin/route/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/admin/route/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506412853.881
+    'REQUEST_TIME' => 1506412853
+]
+2017-09-26 16:00:54 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 10' in E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php:196
+Stack trace:
+#0 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(196): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'E:\\www\\gg\\advan...', 196, Array)
+#1 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(130): mdm\admin\components\MenuHelper::normalizeMenu('[<span class="s...', '[<span class="n...', Object(Closure), NULL)
+#2 E:\www\gg\advanced\backend\views\layouts\left.php(46): mdm\admin\components\MenuHelper::getAssignedMenu(1, NULL, Object(Closure))
+#3 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#4 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#5 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, NULL)
+#6 E:\www\gg\advanced\backend\views\layouts\main.php(51): yii\base\View->render('left.php', Array)
+#7 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#8 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#9 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, Object(mdm\admin\controllers\RoleController))
+#10 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="rol...')
+#11 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\ItemController.php(55): yii\base\Controller->render('index', Array)
+#12 [internal function]: mdm\admin\components\ItemController->actionIndex()
+#13 E:\www\gg\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#16 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/role/inde...', Array)
+#17 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#19 {main}
+2017-09-26 16:00:54 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.mana.com/backend/web/admin/menu/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51820'
+    'REDIRECT_URL' => '/backend/web/admin/role/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/admin/role/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506412854.736
+    'REQUEST_TIME' => 1506412854
+]
+2017-09-26 16:00:56 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 10' in E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php:196
+Stack trace:
+#0 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(196): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'E:\\www\\gg\\advan...', 196, Array)
+#1 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(130): mdm\admin\components\MenuHelper::normalizeMenu('[<span class="s...', '[<span class="n...', Object(Closure), NULL)
+#2 E:\www\gg\advanced\backend\views\layouts\left.php(46): mdm\admin\components\MenuHelper::getAssignedMenu(1, NULL, Object(Closure))
+#3 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#4 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#5 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, NULL)
+#6 E:\www\gg\advanced\backend\views\layouts\main.php(51): yii\base\View->render('left.php', Array)
+#7 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#8 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#9 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, Object(mdm\admin\controllers\UserController))
+#10 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="use...')
+#11 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\controllers\UserController.php(100): yii\base\Controller->render('index', Array)
+#12 [internal function]: mdm\admin\controllers\UserController->actionIndex()
+#13 E:\www\gg\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#16 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/user/inde...', Array)
+#17 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#19 {main}
+2017-09-26 16:00:56 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.mana.com/backend/web/rdp/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51828'
+    'REDIRECT_URL' => '/backend/web/admin/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/admin/user/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506412856.166
+    'REQUEST_TIME' => 1506412856
+]
+2017-09-26 16:01:02 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 10' in E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php:196
+Stack trace:
+#0 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(196): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'E:\\www\\gg\\advan...', 196, Array)
+#1 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(130): mdm\admin\components\MenuHelper::normalizeMenu('[<span class="s...', '[<span class="n...', Object(Closure), NULL)
+#2 E:\www\gg\advanced\backend\views\layouts\left.php(46): mdm\admin\components\MenuHelper::getAssignedMenu(1, NULL, Object(Closure))
+#3 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#4 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#5 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, NULL)
+#6 E:\www\gg\advanced\backend\views\layouts\main.php(51): yii\base\View->render('left.php', Array)
+#7 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#8 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#9 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, Object(mdm\admin\controllers\AssignmentController))
+#10 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="ass...')
+#11 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\controllers\AssignmentController.php(78): yii\base\Controller->render('index', Array)
+#12 [internal function]: mdm\admin\controllers\AssignmentController->actionIndex()
+#13 E:\www\gg\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#16 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/', Array)
+#17 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#19 {main}
+2017-09-26 16:01:02 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51839'
+    'REDIRECT_URL' => '/backend/web/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506412862.3
+    'REQUEST_TIME' => 1506412862
+]
+2017-09-26 16:01:10 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined offset: 10' in E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php:196
+Stack trace:
+#0 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(196): yii\base\ErrorHandler->handleError(8, 'Undefined offse...', 'E:\\www\\gg\\advan...', 196, Array)
+#1 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\MenuHelper.php(130): mdm\admin\components\MenuHelper::normalizeMenu('[<span class="s...', '[<span class="n...', Object(Closure), NULL)
+#2 E:\www\gg\advanced\backend\views\layouts\left.php(46): mdm\admin\components\MenuHelper::getAssignedMenu(1, NULL, Object(Closure))
+#3 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#4 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#5 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, NULL)
+#6 E:\www\gg\advanced\backend\views\layouts\main.php(51): yii\base\View->render('left.php', Array)
+#7 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(330): require('E:\\www\\gg\\advan...')
+#8 E:\www\gg\advanced\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('E:\\www\\gg\\advan...', Array)
+#9 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(396): yii\base\View->renderFile('E:\\www\\gg\\advan...', Array, Object(mdm\admin\controllers\AssignmentController))
+#10 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(382): yii\base\Controller->renderContent('<div class="ass...')
+#11 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\controllers\AssignmentController.php(78): yii\base\Controller->render('index', Array)
+#12 [internal function]: mdm\admin\controllers\AssignmentController->actionIndex()
+#13 E:\www\gg\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#15 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('', Array)
+#16 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/', Array)
+#17 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#19 {main}
+2017-09-26 16:01:10 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '51855'
+    'REDIRECT_URL' => '/backend/web/admin/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/admin/'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506412870.658
+    'REQUEST_TIME' => 1506412870
+]
+2017-09-26 16:02:22 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'æ‚¨æ²¡æœ‰æ‰§è¡Œæ­¤æ“ä½œçš„æƒé™ã€‚' in E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 E:\www\gg\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(75): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('refresh', Array)
+#7 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/route/ref...', Array)
+#8 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2017-09-26 16:02:22 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'http://www.mana.com'
+    'HTTP_X_CSRF_TOKEN' => 'LcogvlUA7GQsMfoDUztacZM1nOo7AHUMwhDVVNY3QVCfRyDObR51jhgFF7G2iXxY7YpZmd8AWPHR44RUoTfa6w=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.mana.com/backend/web/admin/route/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52038'
+    'REDIRECT_URL' => '/backend/web/admin/route/refresh'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/admin/route/refresh'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506412942.694
+    'REQUEST_TIME' => 1506412942
+]
+2017-09-26 16:02:24 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'æ‚¨æ²¡æœ‰æ‰§è¡Œæ­¤æ“ä½œçš„æƒé™ã€‚' in E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 E:\www\gg\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(75): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('refresh', Array)
+#7 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/route/ref...', Array)
+#8 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2017-09-26 16:02:23 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'http://www.mana.com'
+    'HTTP_X_CSRF_TOKEN' => 'LcogvlUA7GQsMfoDUztacZM1nOo7AHUMwhDVVNY3QVCfRyDObR51jhgFF7G2iXxY7YpZmd8AWPHR44RUoTfa6w=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://www.mana.com/backend/web/admin/route/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52038'
+    'REDIRECT_URL' => '/backend/web/admin/route/refresh'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/admin/route/refresh'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506412943.944
+    'REQUEST_TIME' => 1506412943
+]
+2017-09-26 16:02:29 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'æ‚¨æ²¡æœ‰æ‰§è¡Œæ­¤æ“ä½œçš„æƒé™ã€‚' in E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 E:\www\gg\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(75): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('index', Array)
+#7 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('admin/route/ind...', Array)
+#8 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2017-09-26 16:02:29 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.mana.com/backend/web/admin/assignment/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52074'
+    'REDIRECT_URL' => '/backend/web/admin/route/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/admin/route/index'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506412949.203
+    'REQUEST_TIME' => 1506412949
+]
+2017-09-26 16:02:29 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'æ‚¨æ²¡æœ‰æ‰§è¡Œæ­¤æ“ä½œçš„æƒé™ã€‚' in E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 E:\www\gg\advanced\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 E:\www\gg\advanced\vendor\yiisoft\yii2\base\ActionFilter.php(75): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(676): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Controller.php(144): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('toolbar', Array)
+#7 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('debug/default/t...', Array)
+#8 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2017-09-26 16:02:29 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_GET = [
+    'tag' => '59ca099546657'
+]
+
+$_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.mana.com/backend/web/admin/route/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52074'
+    'REDIRECT_URL' => '/backend/web/debug/default/toolbar'
+    'REDIRECT_QUERY_STRING' => 'tag=59ca099546657'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=59ca099546657'
+    'REQUEST_URI' => '/backend/web/debug/default/toolbar?tag=59ca099546657'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506412949.67
+    'REQUEST_TIME' => 1506412949
+]
+2017-09-26 16:04:16 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/414ff899/images/ui-bg_flat_75_ffffff_40x100.png".' in E:\www\gg\advanced\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('assets/414ff899...', Array)
+#1 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'é¡µé¢æœªæ‰¾åˆ°ã€‚' in E:\www\gg\advanced\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 E:\www\gg\advanced\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\www\gg\advanced\backend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-09-26 16:04:16 [127.0.0.1][1][is48965v13tc8i965cbkmmc6u1][info][application] $_COOKIE = [
+    '_csrf-backend' => 'a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"²\0p8™ê44í²å²&)~¿Åsä\0-ýóQ\0w\0›»\";}'
+    'advanced-backend' => 'is48965v13tc8i965cbkmmc6u1'
+    '_identity-backend' => 'a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/backend/web/'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'www.mana.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://www.mana.com/backend/web/assets/414ff899/jquery-ui.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => '_csrf-backend=a1dca6a3fa2b65c3bc2d70d26138f31e2293b237afe31f0a671843d3ecf59e66a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B2%8D%00p8%1E%99%EA44%ED%B2%E5%B2%26%29%7E%BF%C5s%E4%00-%FD%13%F3Q%00w%00%9B%BB%22%3B%7D; advanced-backend=is48965v13tc8i965cbkmmc6u1; _identity-backend=a2c191c6537fca1cbd3f39136b540e72f19a3ed5ec55a7d962684d0787262101a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22FoFuK-WrcOayDI0_kLdRwGavKN-6mXs6%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files\\Microsoft MPI\\Bin\\;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\Soft\\SVN\\bin;E:\\phpStudy\\php\\php-5.6.30;D:\\Soft\\Git\\cmd;C:\\ProgramData\\ComposerSetup\\bin;D:\\Soft\\Pythom;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Anaconda3;C:\\Program Files\\Anaconda3\\Scripts;C:\\Program Files\\Anaconda3\\Library\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'www.mana.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/www/gg/advanced'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'E:/www/gg/advanced/backend/web/index.php'
+    'REMOTE_PORT' => '52305'
+    'REDIRECT_URL' => '/backend/web/assets/414ff899/images/ui-bg_flat_75_ffffff_40x100.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/backend/web/assets/414ff899/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/backend/web/index.php'
+    'PHP_SELF' => '/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1506413056.478
+    'REQUEST_TIME' => 1506413056
+]
