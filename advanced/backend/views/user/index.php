@@ -26,10 +26,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'id',
             'username',
-//            'auth_key',
-//            'password_hash',
-//            'password_reset_token',
-             'email:email',
+            'email:email',
             [
                 'attribute' => 'status',
                 'value' => function($model) {
@@ -40,8 +37,18 @@ $this->params['breadcrumbs'][] = $this->title;
                     10 => 'Active'
                 ]
             ],
-             'created_at:date',
-             'updated_at:date',
+            [
+                'attribute' => 'created_at',
+                'value' => function($model){
+                    return date("Y-m-d H:i:s",$model->created_at);
+                }
+            ],
+            [
+                'attribute' => 'updated_at',
+                'value' => function($model){
+                    return date("Y-m-d H:i:s",$model->updated_at);
+                }
+            ],
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
