@@ -64,16 +64,7 @@ class ArticleController extends Controller
     public function actionCreate()
     {
         $model = new Article();
-        if (Yii::$app->request->post() && Yii::$app->request->isPost) {
-            $upload_info = UploadedFile::getInstance($model,"first_img");
-            if ($upload_info) {
-                $path = '../../uploads/' . date("YmdHis",time()) . mt_rand(1000, 9999) . '.' . $upload_info->extension;
-                $upload_info->saveAs($path);
-            }
-        }
-//        var_dump($path);exit;
         if ($model->load(Yii::$app->request->post())) {
-            $model->first_img = $path;
             $model->create_at = time();
             if($model->save()){
                 return $this->redirect(['view', 'id' => $model->id]);

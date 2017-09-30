@@ -38,7 +38,7 @@ class Article extends \yii\db\ActiveRecord
             [['content'], 'string'],
             [['g_id', 'create_at', 'updated_at', 'visite_num'], 'integer'],
             [['title'], 'string', 'max' => 200],
-            [['first_img'],'file'],
+            [['first_img', 'title'], 'string', 'max' => 200],
             [['g_id'], 'exist', 'skipOnError' => true, 'targetClass' => ArticleGroup::className(), 'targetAttribute' => ['g_id' => 'id']],
         ];
     }
